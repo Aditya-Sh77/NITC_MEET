@@ -1,4 +1,4 @@
-(Note: We couldn't really complete the project but this has whatever we aere able to do (not much))
+(Note: We couldn't really complete the project but this has whatever we were able to do (not much))
 # NITC_MEET
 
 NITC Meet is a real-time video chat application designed to connect students via their NITC email. The app uses Flask for the backend and WebRTC for peer-to-peer video communication. Users can start, stop, and skip chats, with relevant information displayed about connected peers.
