@@ -94,18 +94,6 @@ NITC Meet is a real-time video chat application designed to connect students via
 
 ---
 
-## Debugging Tips
-
-### Print Connected Users on Skip
-Ensure `print` statements are working correctly:
-```python
-@socket.on('skip')
-def handle_skip():
-    global connected_users
-    print("Skip event triggered")
-    print("Connected users:", connected_users)
-```
-Run the Flask app with `debug=True` to see logs in the terminal.
 
 ---
 
