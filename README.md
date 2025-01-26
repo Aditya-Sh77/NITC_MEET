@@ -35,8 +35,8 @@ NITC Meet is a real-time video chat application designed to connect students via
 ### Backend Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nitc-meet.git
-   cd nitc-meet
+   git clone https://github.com/Aditya-Sh77/NITC_MEET.git
+   cd NITC_MEET
    ```
 
 2. Set up a virtual environment and activate it:
