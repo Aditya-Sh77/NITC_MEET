@@ -1,0 +1,86 @@
+/* Save this as "styles.css" */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.form-container {
+  flex: 1;
+  padding: 2rem;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+input:focus {
+  border-color: #6a11cb;
+  outline: none;
+  box-shadow: 0 0 6px rgba(106, 17, 203, 0.5);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+.image-container {
+  flex: 1;
+  background-image: url(''); /* Replace with the actual file path */
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NITC Meet - Login</title>
+    <link rel="stylesheet" href="loginstyles.css">
+
+</head>
+<body>
+
+    <!-- Background container -->
+    <div class="background">
+        <div class="overlay"></div>
+    </div>
+    
+     
+    <!-- Main login form container -->
+    <div class="login-container">
+        <div class="login-box">
+            <h1>Welcome to NITC Meet</h1>
+            <p>Log in with your NITC email and password to connect with your peers.</p>
+
+            <!-- Login Form -->
+            <form id="login-form" action="/login" method="POST">
+                <div class="input-group">
+                    <input type="email" name="email" id="email" placeholder="Enter your NITC Email" required>
+                    <span class="input-focus"></span>
+                </div>
+            
+                <div class="input-group">
+                    <input type="password" name="password" id="password" placeholder="Enter your Password" required>
+                    <span class="input-focus"></span>
+                </div>
+            
+                <button type="submit" class="login-btn">Login with NITC Email</button>
+            </form>
+            
+
+           <div class="auth-buttons">
+                <button class="register-btn" id="register-btn">Register</button>
+            </div>
+
+            <p class="note">By logging in, you agree to our <a href="#">Terms & Conditions</a></p>
+            <p id="message"></p>
+
+        </div>
+    </div>
+
+</body>
+<script src="../static/login.js"></script>
+</html>
+
+
+

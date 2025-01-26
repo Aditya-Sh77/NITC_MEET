@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NITC-Meet</title>
+  <link rel="stylesheet" href="vc.css">
+  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+      
+</head>
+<body>
+  <h1>NITC-Meet</h1>
+  <div class="video-container">
+    <div class="video-wrapper">
+      <video id="localVideo" autoplay playsinline muted></video>
+      <div class="label">You</div>
+    </div>
+    <div class="video-wrapper">
+      <video id="remoteVideo" autoplay playsinline></video>
+      <div class="label">Stranger</div>
+    </div>
+  </div>
+  <div class="controls">
+    <div class="controls">
+        <button id="muteButton">Mute</button>
+        <button id="cameraButton">Turn Off Camera</button>
+        <button id="leaveButton">Leave</button>
+        <button id="skipButton">Skip</button>
+      </div>
+    </div>
+    </main>
+
+  </div>
+           
+    
+</body>
+<script src="..\static\webrtc.js"></script>
+</html>

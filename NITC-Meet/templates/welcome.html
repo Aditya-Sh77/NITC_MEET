@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to NITC Meet</title>
+  <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+  <!-- Profile Menu -->
+  <div class="profile-menu">
+    <div class="user-info">
+      <img src="profile-picture.png" alt="User Profile Picture" class="profile-picture" onclick="toggleMenu()">
+      <span class="user-name" onclick="toggleMenu()">John Doe</span>
+    </div>
+    <div id="dropdown-menu" class="dropdown-menu">
+      <a href="#" onclick="viewRecordings()">
+        <span class="icon">🔴</span> Recordings
+      </a>
+      <a href="#" onclick="signOut()">
+        <span class="icon">➔</span> Sign Out
+      </a>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <header>
+      <h1>Welcome to <span>NITC Meet</span>!</h1>
+      <p>Connect with your peers for real-time video, audio, and text chats!</p>
+    </header>
+
+    <section class="instructions">
+      <p><strong>How it works:</strong> You’ll be paired randomly with another user to start chatting. Use filters to find connections based on your preferences!</p>
+      <p>Please follow the guidelines and keep it respectful.</p>
+    </section>
+
+    <div class="cta-buttons">
+      <button onclick="window.location.href='/templates/vc.html'">Start Video Chat</button>
+    </div>
+
+    <footer>
+      <p><a href="/terms">Terms of Service</a> | <a href="/guidelines">Community Guidelines</a></p>
+      <p>© 2025 NITC Meet App. All rights reserved.</p>
+    </footer>
+  </div>
+
+  
+</body>
+</html>

@@ -1,0 +1,160 @@
+/* General Styling */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Profile Menu */
+.profile-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #6a11cb;
+  cursor: pointer;
+}
+
+.user-name {
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: left;
+}
+
+.dropdown-menu a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu a:last-child {
+  border-bottom: none;
+  color: rgb(248, 4, 4);
+}
+
+.dropdown-menu a:last-child:hover {
+  background-color: #f8d7da;
+  color: darkred;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+/* Container */
+.container {
+  margin: 80px auto;
+  padding: 40px;
+  max-width: 700px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+  color: #6a11cb;
+}
+
+header h1 span {
+  color: #2575fc;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Instructions */
+.instructions p {
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Call-to-Action Buttons */
+.cta-buttons {
+  margin-top: 30px;
+}
+
+.cta-buttons button {
+  font-size: 1.2em;
+  padding: 15px 30px;
+  margin: 15px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-buttons button:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 1em;
+  color: #666;
+}
+
+footer a {
+  color: #6a11cb;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
